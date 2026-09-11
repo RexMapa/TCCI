@@ -1,0 +1,94 @@
+.credit-cards{
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+    padding-left: 35%;
+}
+.footer-tcci{
+    padding: 0 0 0.9375rem 0 ;
+
+}
+.credit-cards img{
+    pointer-events: none;
+    height: 25px;
+}
+.contact-content {
+    padding: 100px 15px;
+}
+.items{
+    margin-top: 0px;
+}
+.section{
+    padding: 40px 0;
+}
+
+.assessment{
+    margin-top: 60px;
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 35px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) !important;
+}
+
+.whatsapp:hover {
+  background-color: #128c7e;
+  color: #fff;
+  text-decoration: none;
+}
+
+.card-hover {
+  transition: all 0.3s ease;
+}
+.card-hover:hover {
+  transform: scale(1.03);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.video-wrapper {
+  width: 100%;
+  height: 420px; 
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-wrapper video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.video-testimonials-row .card-hover {
+  display: block; 
+  height: auto;   
+}
+
+.video-testimonials-row .card-body {
+  display: block; 
+  flex-grow: 0;   
+  height: auto;   
+  padding-bottom: 1rem; 
+}
+
+.video-testimonials-row .card-title {
+  white-space: normal; 
+  max-height: 3rem;    
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
